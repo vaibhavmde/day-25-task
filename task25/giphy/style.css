@@ -1,0 +1,44 @@
+body{
+  background-color:black;
+  box-sizing: border-box;
+}
+.head{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border-radius: 30px;
+  margin: 5px;
+  margin-top: 10px;
+}
+
+#label{
+  background-color:black;
+  color:whitesmoke;
+  font-size: 30px;
+  margin:5px;
+  padding:5px
+}
+#Search{
+  border-radius: 20px;
+  background-color:black;
+  color:whitesmoke;
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+#btn{
+  border-radius:50px;
+  size: 10px;
+}
+#content{
+  display: flex;
+  flex-flow: row wrap;
+}
+.card{
+  width: 100%;
+}
+@media(min-width:768px){
+  .card{
+    width:33%;
+  }
+}

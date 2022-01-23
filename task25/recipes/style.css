@@ -1,0 +1,46 @@
+body{
+  box-sizing: border-box;
+  background: linear-gradient(toright,red,blue,black);
+  font-family:'Courier New', Courier, monospace ;
+  font-size: 14px;
+}
+#head{
+  background-color:blue;
+  color: whitesmoke;
+}
+#search-box{
+  background-color:black;
+  height: 40px;
+  font-size: 20px;
+  color: whitesmoke;
+}
+#btn{
+  background-color:blue;
+  color:whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+  border-color: black;
+}
+.dis{
+  display: flex;
+  flex-flow: row wrap ;
+  background-color: black;
+}
+
+.card{
+  padding: auto;
+  width: 100%;
+  border-radius: 15px;
+  background-color: black;
+  color:whitesmoke;
+}
+@media(min-width:768px){
+  .card{
+    width:33%;
+  }
+}
+/* @media(min-width: 320px)and(max-width:768px){
+  .card{
+    width:50%;
+  }
+} */

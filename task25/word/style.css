@@ -1,0 +1,22 @@
+body{
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+.container{
+  display: flex;
+  flex-flow: column wrap;
+  align-items:center;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+#card{
+  margin: 20px;
+  padding: 20px
+}
+p,h1{
+  color:black;
+  width: 100%;
+}
